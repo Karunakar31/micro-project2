@@ -18,6 +18,7 @@ body {
     background-color: #6F6AF7;
     font-family: "Delius Unicase";
     position: fixed;
+    justify-content: space-between;
     width:1520px;
     height: 90px;
     top: 0;
@@ -30,17 +31,18 @@ body {
     font-family: "DM Sans";
     font-size: 28px;
     text-align: center;
-    padding: 24px 38px 0px 0px;
+    padding: 24px 40px 0px 0px;
     text-decoration: none; 
   }
   #vec {
     position: absolute;
     top: 41px;
-    right:730px;
+    right:660px;
   }
   .search{
+  position:absolute;
+  right:215px;
   margin-top: 15px;
-  margin-left: 40px;
   height: 30px;
   width: 300px;
   display: block;
@@ -48,12 +50,12 @@ body {
   font-size: 19px;
   border: #6F6AF7 5px solid;
   border-radius: 30px;
-  padding:10px;
+  padding:10px 0px 10px 20px;
   }
   
   #searchl{
     position: absolute;
-    right: 370px;
+    right: 210px;
     top:0;
     padding: 30px;
   }
@@ -253,9 +255,14 @@ body {
     position: sticky;
     display: flex;
     flex-direction: column;
-    padding-top: 160px;
-    top: 20px;
+    padding-top: 130px;
+    top: 10px;
     right: 2px;
     float: right;
     
+  }
+
+  #sticky {
+    list-style: none;
+    cursor: pointer;
   }
