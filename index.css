@@ -251,18 +251,11 @@ body {
 
   .sidebar {
     position: sticky;
-    width: fit-content;
-    justify-content: center;
-    float: right;
-    margin-top:85px;
     display: flex;
-    position:-webkit-sticky;
-  }
-
-  .sticky {
-    position: sticky;
-    position:-webkit-sticky;
-    list-style: none;
-    float:right;
-    margin-top:0;
+    flex-direction: column;
+    padding-top: 160px;
+    top: 20px;
+    right: 2px;
+    float: right;
+    
   }
